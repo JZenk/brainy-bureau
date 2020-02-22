@@ -1,6 +1,8 @@
 {
   "name": "brainy-bureau",
   "version": "0.1.0",
+  "description": "Because the app from Clueless isn't real.",
+  "author": "JZenk",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,7 +11,10 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.5.0",
     "core-js": "^2.6.5",
+    "firebase": "^7.9.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
